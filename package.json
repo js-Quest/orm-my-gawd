@@ -1,7 +1,7 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "orm-my-gawd",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project demonstrates the use of Express.js API and Sequelize interacting with a MySQL database as the back-end for an e-commerce site.  It utilizes starter code, as evidenced in the initial commits.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
