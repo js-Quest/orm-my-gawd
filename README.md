@@ -18,22 +18,29 @@
   
   - Install the dependent packages by running the command: **npm i**
 
-  - to initiate the database, run command: **mysql -u root -p**  
+  - make sure you have also separately input your **mysql password into .env file** to access the db.  
+
+  - to get to the mysql command line and initiate the database, run command: **mysql -u root -p**  
   - and then run: **source ./db/schema.sql**  
   - and then to exit the mysql command line run: **quit**  
 
-  - make sure you have also separately input you **password into .env file** to access the db.  
 
   - now that you have returned to the regular terminal, seed the database by running command: **npm run seed**  
-  - to start the application, run command: **npm start**  
+  - to connect the application to your local host 3001, run command: **npm start**  
 
-  - then go to your insomnia app and get your requests on http://localhost:3001/api/  
+  - then go to your insomnia app and submit your requests on http://localhost:3001/api/  
 
   - root endpoints:  /products   /tags   /categories
+  - check out the available requests in each routes folder.
 
   
   ## Usage
   This project tracks products and their related data in a database for a proposed e-commerce site.
+  [Walkthrough Video of initial CLI steps](https://drive.google.com/file/d/1zmzdo90xGtkmqfjWGbbKl4Ve4ez7950F/view)  
+  
+  [Walkthrough Video of Requests](https://drive.google.com/file/d/1WZbH10fRAVTGMvlrApJT3TQXpaWbCBtL/view)  
+
+
   
   ## Contributing
   [Sequelize docs](https://sequelize.org/docs/v6/core-concepts/assocs/)  
