@@ -35,7 +35,7 @@
 
   
   ## Usage
-  This project tracks products and their related data in a database for a proposed e-commerce site.
+  This project tracks products and their related data in a database for a proposed e-commerce site.   
   [Walkthrough Video of initial CLI steps](https://drive.google.com/file/d/1zmzdo90xGtkmqfjWGbbKl4Ve4ez7950F/view)  
   
   [Walkthrough Video of Requests](https://drive.google.com/file/d/1WZbH10fRAVTGMvlrApJT3TQXpaWbCBtL/view)  
