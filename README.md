@@ -18,7 +18,8 @@
   
   - Install the dependent packages by running the command: **npm i**
 
-  - make sure you have also separately input your **mysql password into .env file** to access the db.  
+  - make sure you have also separately input your **mysql password into a .env file** to access the db.  Create the file and name it '.env' if it does not already exist.  
+  - ![Screenshot 2023-05-11 at 9 48 02 AM](https://github.com/js-Quest/orm-my-gawd/assets/128349503/f5f8275c-4e06-4d3c-990d-f0a8d3c84750)
 
   - to get to the mysql command line and initiate the database, run command: **mysql -u root -p**  
   - and then run: **source ./db/schema.sql**  
@@ -33,10 +34,13 @@
   - root endpoints:  /products   /tags   /categories
   - check out the available requests in each routes folder.
 
+
+  [Walkthrough Video of initial CLI steps](https://drive.google.com/file/d/1zmzdo90xGtkmqfjWGbbKl4Ve4ez7950F/view)
+
   
   ## Usage
   This project tracks products and their related data in a database for a proposed e-commerce site.   
-  [Walkthrough Video of initial CLI steps](https://drive.google.com/file/d/1zmzdo90xGtkmqfjWGbbKl4Ve4ez7950F/view)  
+    
   
   [Walkthrough Video of Requests](https://drive.google.com/file/d/1WZbH10fRAVTGMvlrApJT3TQXpaWbCBtL/view)  
 
