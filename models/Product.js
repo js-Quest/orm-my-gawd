@@ -30,16 +30,9 @@ Product.init(
     },
     category_id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
+      onDelete: 'SET NULL',
     },
-    // category_name: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false,
-    //   references: {
-    //     model: Category,
-    //     key: 'id',
-    //   },
-    // },
   },
   {
     sequelize,
