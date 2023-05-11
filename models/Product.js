@@ -30,6 +30,7 @@ Product.init(
     },
     category_id: {
       type: DataTypes.INTEGER,
+      // if category gets deleted, set field to null so product still exists in db
       allowNull: true,
       onDelete: 'SET NULL',
     },

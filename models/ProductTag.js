@@ -19,7 +19,9 @@ ProductTag.init(
     },
     tag_id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      // if tag gets deleted, set field to null so product still exists in db
+      allowNull: true,
+      onDelete: 'SET NULL',
     },
   },
   {
