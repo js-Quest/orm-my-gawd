@@ -22,6 +22,7 @@
   - ![Screenshot 2023-05-11 at 9 48 02 AM](https://github.com/js-Quest/orm-my-gawd/assets/128349503/f5f8275c-4e06-4d3c-990d-f0a8d3c84750)
 
   - to get to the mysql command line and initiate the database, run command: **mysql -u root -p**  
+  - input your mysql password in the CLI if you have one (the same one you used in the .env file).  If you do not have a password, just press enter when prompted for a password.
   - and then run: **source ./db/schema.sql**  
   - and then to exit the mysql command line run: **quit**  
 
