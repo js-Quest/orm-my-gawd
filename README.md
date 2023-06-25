@@ -3,8 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This project demonstrates the use of Express.js API and Sequelize interacting with a MySQL database as the back-end for an e-commerce site.  It utilizes starter code, as evidenced in the initial commits.
-
+  This project demonstrates the use of Express.js API and Sequelize interacting with a MySQL database as the back-end for an e-commerce site.  Contains full CRUD capabilities.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
